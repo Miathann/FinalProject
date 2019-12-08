@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+
+</head>
+<body>
+<style>
+
+	body{
+		font-family: 'Lora', serif;
+		letter-spacing: 5px;
+		font-size:20px;
+		background-color:#f1f1f1;
+	}
+</style>
+
+	<div class="topnav">
+	<a href="index.html">Reformation</a>
+	<a href="seenon.html"style="float:right">As seen on</a>
+	<a href="about.html"style="float:right">About us</a>
+	<a href="impact.html"style="float:right">Impact of Fashion</a>
+	<a href="shop.html"style="float:right">Shop</a>
+</div>
+	<div class="header3">
+		<h1>As Seen On</h1>
+	</div>
+	
+	<div class="card">
+	<div class="rowpic">
+  <div class="columnpic">
+    <img src="https://media1.popsugar-assets.com/files/thumbor/FLTOz3ESoa5TAB2nJI62ivXAq-U/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/782/n/1922564/2f0d3fd2_edit_img_cover_file_15741505_1436889372_Karlie-Kloss-Westlake-Dress/i/Celebrities-Wearing-Reformation.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+
+  <div class="columnpic">
+    <img src="https://media1.popsugar-assets.com/files/thumbor/uT6QhPdMXh-6H1oSlrwQR0ssbpc/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/706/n/1922564/11d3909c3ded43f7_GettyImages-473774086/i/Vanessa-Hudgens-Two-Piece.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+
+  <div class="columnpic">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-kaia-gerber-spl5096858-026-1560967330.jpg?resize=980:*" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="columnpic">
+    <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1549052237980-image.700x0c.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+</div>
+</div>
+
+<div id="myModal" class="modal1">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content1">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://media1.popsugar-assets.com/files/thumbor/FLTOz3ESoa5TAB2nJI62ivXAq-U/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/782/n/1922564/2f0d3fd2_edit_img_cover_file_15741505_1436889372_Karlie-Kloss-Westlake-Dress/i/Celebrities-Wearing-Reformation.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://media1.popsugar-assets.com/files/thumbor/uT6QhPdMXh-6H1oSlrwQR0ssbpc/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/706/n/1922564/11d3909c3ded43f7_GettyImages-473774086/i/Vanessa-Hudgens-Two-Piece.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-kaia-gerber-spl5096858-026-1560967330.jpg?resize=980:*" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1549052237980-image.700x0c.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column1">
+      <img class="demo cursor" src="https://media1.popsugar-assets.com/files/thumbor/FLTOz3ESoa5TAB2nJI62ivXAq-U/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/782/n/1922564/2f0d3fd2_edit_img_cover_file_15741505_1436889372_Karlie-Kloss-Westlake-Dress/i/Celebrities-Wearing-Reformation.jpg" style="width:100%" onclick="currentSlide(1)" alt=" <b>Karlie Kloss's Westlake Dress</b>
+        <br>
+Karlie let her gorgeous blue wrap dress take center stage, completing it with neutral casual accessories, including a backpack and flat studded sandals.">
+    </div>
+
+    <div class="column1">
+      <img class="demo cursor" src="https://media1.popsugar-assets.com/files/thumbor/uT6QhPdMXh-6H1oSlrwQR0ssbpc/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/07/14/706/n/1922564/11d3909c3ded43f7_GettyImages-473774086/i/Vanessa-Hudgens-Two-Piece.jpg" style="width:100%" onclick="currentSlide(2)" alt="<b>Vanessa Hudgens's Two-Piece</b>
+      <br>
+Vanessa completed her polka-dot set with a chic bag, oversize ‘60s-inspired sunglasses, studded sandals, and chunky rings.">
+    </div>
+    <div class="column1">
+      <img class="demo cursor" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-kaia-gerber-spl5096858-026-1560967330.jpg?resize=980:*" style="width:100%" onclick="currentSlide(3)" alt="<b>Kaia Gerber's Lacey Dress</b>
+      <br>
+  The versatile midi dress, which comes in four different prints, has already been spotted on Kaia Gerber, Busy Philipps, Lili Reinhart, Zoey Dutch and a long list of influencers on the 'gram. Featuring a sweetheart neckline, subtle puff sleeves, and a high slit, ">
+    </div>
+    <div class="column1">
+      <img class="demo cursor" src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1549052237980-image.700x0c.jpg" style="width:100%" onclick="currentSlide(4)" alt="<b>Taylor Hill's Color-Me-Happy Sweater</b>
+      <br> the perfect piece to wear this winter.">
+    </div>
+  </div>
+</div>
+
+  <div class="card">
+  <div class="rowpic">
+  <div class="columnpic">
+    <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548716970410-image.900x0c.jpg?interlace=true&quality=70" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+
+  <div class="columnpic">
+    <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548991817466-image.900x0c.jpg?interlace=true&quality=70" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+
+  <div class="columnpic">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-lili-reinhart-bfa-27981-3560934-1560967385.jpg?resize=768:*" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="columnpic">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kendall-jenner-is-seen-in-soho-on-june-17-2019-in-new-york-news-photo-1156570301-1560982959.jpg?resize=480:*" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+</div>
+
+<div id="myModal" class="modal1">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content1">
+
+    <div class="mySlides">
+      <div class="numbertext">5/8</div>
+      <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548716970410-image.900x0c.jpg?interlace=true&quality=70" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6/8</div>
+      <img src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548991817466-image.900x0c.jpg?interlace=true&quality=70" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-lili-reinhart-bfa-27981-3560934-1560967385.jpg?resize=768:*" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kendall-jenner-is-seen-in-soho-on-june-17-2019-in-new-york-news-photo-1156570301-1560982959.jpg?resize=480:*" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column1">
+      <img class="demo cursor" src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548716970410-image.900x0c.jpg?interlace=true&quality=70" style="width:100%" onclick="currentSlide(5)" alt=" <b>Karlie Kloss's Westlake Dress</b>
+        <br>
+Karlie let her gorgeous blue wrap dress take center stage, completing it with neutral casual accessories, including a backpack and flat studded sandals.">
+    </div>
+
+    <div class="column1">
+      <img class="demo cursor" src="https://cdn.cliqueinc.com/posts/276625/reformation-celebrity-clothing-276625-1548991817466-image.900x0c.jpg?interlace=true&quality=70" style="width:100%" onclick="currentSlide(6)" alt="<b>Vanessa Hudgens's Two-Piece</b>
+      <br>
+Vanessa completed her polka-dot set with a chic bag, oversize ‘60s-inspired sunglasses, studded sandals, and chunky rings.">
+    </div>
+    <div class="column1">
+      <img class="demo cursor" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-lili-reinhart-bfa-27981-3560934-1560967385.jpg?resize=768:*" style="width:100%" onclick="currentSlide(7)" alt="<b>Kaia Gerber's Lacey Dress</b>
+      <br>
+  The versatile midi dress, which comes in four different prints, has already been spotted on Kaia Gerber, Busy Philipps, Lili Reinhart, Zoey Dutch and a long list of influencers on the 'gram. Featuring a sweetheart neckline, subtle puff sleeves, and a high slit, ">
+    </div>
+    <div class="column1">
+      <img class="demo cursor" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kendall-jenner-is-seen-in-soho-on-june-17-2019-in-new-york-news-photo-1156570301-1560982959.jpg?resize=480:*" style="width:100%" onclick="currentSlide(8)" alt="<b>Taylor Hill's Color-Me-Happy Sweater</b>
+      <br> the perfect piece to wear this winter.">
+    </div>
+  </div>
+</div>
+
+</div>
+
+<footer>
+  <h5>20% OFF + FREE SHIPPING</h5>
+  <p>Our gift to all new Ref email subscribers.</p>
+  <button style="float:right" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+
+ </body>
+ </html>
+
+
